@@ -26,8 +26,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		3C38F5AA18CB4B5F0002D7D1 /* TitleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C38F5A818CB4B5F0002D7D1 /* TitleScene.cpp */; };
+		3C8575CD18CDBB4C005D290E /* Rubik_cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8575CC18CDBB4C005D290E /* Rubik_cube.png */; };
 		3CA00A2618CD635200381932 /* StageScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CA00A2418CD635200381932 /* StageScene.cpp */; };
-		3CA00A2F18CD673400381932 /* Rubik_cube.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CA00A2E18CD673400381932 /* Rubik_cube.png */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -261,9 +261,9 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3C38F5A818CB4B5F0002D7D1 /* TitleScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TitleScene.cpp; path = ../Classes/TitleScene.cpp; sourceTree = "<group>"; };
 		3C38F5A918CB4B5F0002D7D1 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScene.h; path = ../Classes/TitleScene.h; sourceTree = "<group>"; };
+		3C8575CC18CDBB4C005D290E /* Rubik_cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rubik_cube.png; sourceTree = "<group>"; };
 		3CA00A2418CD635200381932 /* StageScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StageScene.cpp; path = ../Classes/StageScene.cpp; sourceTree = "<group>"; };
 		3CA00A2518CD635200381932 /* StageScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StageScene.h; path = ../Classes/StageScene.h; sourceTree = "<group>"; };
-		3CA00A2E18CD673400381932 /* Rubik_cube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rubik_cube.png; path = ../../../Downloads/Rubik_cube.png; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -499,7 +499,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3CA00A2E18CD673400381932 /* Rubik_cube.png */,
+				3C8575CC18CDBB4C005D290E /* Rubik_cube.png */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
 				1AFAF8BA16D35E4900DB1158 /* CloseSelected.png */,
 				1AFAF8BB16D35E4900DB1158 /* HelloWorld.png */,
@@ -712,7 +712,7 @@
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
-				3CA00A2F18CD673400381932 /* Rubik_cube.png in Resources */,
+				3C8575CD18CDBB4C005D290E /* Rubik_cube.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
