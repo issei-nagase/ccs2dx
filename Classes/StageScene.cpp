@@ -46,7 +46,32 @@ bool Stage::init()
     background->setPosition(Point(origin.x + visibleSize.width / 2, origin.y + visibleSize.height / 2));
     this->addChild(background, 0); //第2引数は表示順
     
+    //pImg1を画面中央に配置
+    Sprite* ball1 = Sprite::create("ball.png");
+    ball1->setPosition(Point(
+                             origin.x + visibleSize.width / 2,
+                             origin.y + visibleSize.height / 2));
+    this->addChild(ball1, 1);
+
+    //pImg2を配置
+    Sprite* ball2 = Sprite::create("ball.png");
+    ball2->setPosition(
+                       Point(origin.x + visibleSize.width / 2 - 300,
+                             origin.y + visibleSize.height / 2 - 300));
+    this->addChild(ball2, 1);
     
+    //pImg1とpImg2の表示領域を取得
+    Rect rect1 = ball1->boundingBox();
+    Rect rect2 = ball2->boundingBox();
+    
+    //rect1（pImg1の表示領域）とrect2（pImg2の表示領域）が重なっているか
+    if(rect1.intersectsRect(rect2))
+    {
+        CCLOG("rect1とrect2は重なってます");
+    }else
+    {
+        CCLOG("rect1とrect2は重なってません");
+    }
     
     //戻るボタンを設置
     auto backButton = MenuItemImage::create(
@@ -61,9 +86,6 @@ bool Stage::init()
     auto menu = Menu::create(backButton, NULL);
     menu->setPosition(Point::ZERO);
     this->addChild(menu, 1);
-    
-    
-    
     
     return true;
 }
